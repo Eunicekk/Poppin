@@ -2,7 +2,7 @@ import { initializeApp } from 'firebase/app';
 import { getMessaging, getToken, onMessage } from "firebase/messaging";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCxg4XmJcFvzM5jRK_vYgCmWAIrqJJcqDE",
+    apiKey: VITE_FIREBASE_KEY,
     authDomain: "poppin-5a9bf.firebaseapp.com",
     projectId: "poppin-5a9bf",
     storageBucket: "poppin-5a9bf.appspot.com",
