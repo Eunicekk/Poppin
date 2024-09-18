@@ -2,7 +2,7 @@ importScripts('https://www.gstatic.com/firebasejs/9.0.0/firebase-app-compat.js')
 importScripts('https://www.gstatic.com/firebasejs/9.0.0/firebase-messaging-compat.js');
 
 firebase.initializeApp({
-    apiKey: "AIzaSyCxg4XmJcFvzM5jRK_vYgCmWAIrqJJcqDE",
+    apiKey: import.meta.env.VITE_FIREBASE_KEY,
     authDomain: "poppin-5a9bf.firebaseapp.com",
     projectId: "poppin-5a9bf",
     storageBucket: "poppin-5a9bf.appspot.com",
